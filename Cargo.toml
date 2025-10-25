@@ -10,6 +10,10 @@ homepage = "https://github.com/takanoriyanagitani/rs-procs2arrow-ipc-stream"
 documentation = "https://docs.rs/rs-procs2arrow-ipc-stream/latest"
 keywords = ["arrow", "ipc", "process"]
 
+exclude = [
+	"rs-procs2arrow-ipc-stream",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
