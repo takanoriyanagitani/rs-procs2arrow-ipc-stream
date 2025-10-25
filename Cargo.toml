@@ -3,6 +3,13 @@ name = "rs-procs2arrow-ipc-stream"
 version = "0.1.0"
 edition = "2024"
 
+description = "Prints the proc info values as an ipc stream."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-procs2arrow-ipc-stream"
+homepage = "https://github.com/takanoriyanagitani/rs-procs2arrow-ipc-stream"
+documentation = "https://docs.rs/rs-procs2arrow-ipc-stream/latest"
+keywords = ["arrow", "ipc", "process"]
+
 [lints.rust]
 unsafe_code = "forbid"
 
