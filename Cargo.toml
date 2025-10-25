@@ -1,0 +1,30 @@
+[package]
+name = "rs-procs2arrow-ipc-stream"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "forbid"
+expect_used = "forbid"
+
+[dependencies.sysinfo]
+version = "0"
+default-features = false
+features = [
+	"component",
+	"disk",
+	"network",
+	"system",
+	"user",
+]
+
+[dependencies.arrow]
+version = "56"
+default-features = false
+features = [
+	"ipc",
+]
+
